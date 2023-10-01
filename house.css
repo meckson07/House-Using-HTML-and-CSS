@@ -1,0 +1,269 @@
+body{
+    background-color:lightblue;
+}
+.center{
+    position: relative;
+    top:300px;
+    left:370px;
+}
+.center-roof{
+    border-bottom:60px solid rgb(167, 3, 167);
+    border-right:70px solid transparent;
+    border-left:70px solid transparent;
+    width:315px;
+}
+.center-roofbase{
+    width:470px;
+    height:5px;
+    background-color: rgb(130, 130, 130);
+    position:absolute;
+    left:-10px;
+    border-radius: 2px;
+}
+.wall{
+    width:450px;
+    height:200px;
+    background-color:rgb(238, 238, 162);
+    box-shadow: 5px 5px 5px gray;
+}
+.win1{
+    width:50px;
+    height:35px;
+    background-color: lightblue;
+}
+.singlewindow{
+    position: relative;
+    top:100px;
+    left:50px;
+}
+.win2{
+    height:35px;
+    width:100px;
+    background-color: lightblue;
+}
+.multiplewindow{
+    position:relative;
+    top:70px;
+    left:250px;
+}
+.door{
+    width:60px;
+    height:130px;
+    background-color: #03C03C;
+    position: relative;
+    left:140px;
+}
+.door-left{
+    width:5px;
+    height:150px;
+    background-color:rgb(238, 238, 162);
+    position: relative;
+    bottom:150px;
+    left:115px;
+    box-shadow: -3px 3px 5px gray;
+}
+.door-right{
+    width:5px;
+    height:150px;
+    background-color:rgb(238, 238, 162);
+    position: relative;
+    bottom:300px;
+    left:220px;
+    box-shadow: -3px 3px 5px gray;
+}
+.door-top{
+    border-bottom:75px solid #AD8B65;
+    border-right:100px solid transparent;
+    border-left:100px solid transparent;
+    position: relative;
+    width:0px;
+    bottom:520px;
+    left:70px;
+}
+.upperroof{
+    border-bottom:50px solid rgb(167, 3, 167);
+    border-right:50px solid transparent;
+    border-left:50px solid transparent;
+    width:90px;
+}
+.upbot{
+    width:200px;
+    height:5px;
+    background-color: gray;
+    position:relative;
+    top:55px;
+    right:55px;
+}
+.upperwall{
+    width:190px;
+    height:90px;
+    background-color: rgb(238, 238, 162);
+}
+.upwin1{
+    width:100px;
+    height:50px;
+    background-color: rgb(160, 201, 224);;
+}
+.win3{
+    position: relative;
+    top:25px;
+    left:40px
+}
+.upperhouse{
+    position:relative;
+    bottom:95px;
+    left:460px;
+}
+.car{
+    width:180px;
+    height:130px;
+    background-color:rgb(238, 238, 162);
+    position: relative;
+    top:115px;
+    right:270px;
+    box-shadow: 3px 3px 3px gray;
+}
+.gate{
+    width:140px;
+    height:100px;
+    background-color: #03C03C;
+    position: relative;
+    top:30px;
+    left:20px;
+}
+.shedroof{
+    width:185px;
+    height:5px;
+    background-color: gray;
+    position: relative;
+    top:115px;
+    right:275px;
+    border-radius: 2px;
+}
+.rightroof{
+    border-bottom: 40px solid rgb(167, 3, 167);
+    border-right: 200px solid transparent;
+    border-left: 1px solid transparent;
+    width:0px;
+}
+.rightwall{
+    width:200px;
+    height:150px;
+    background-color:rgb(238, 238, 162) ;
+    box-shadow: -3px 3px 2px gray;
+}
+.win4{
+    position: relative;
+    top:50px;
+    left:50px;
+    
+}
+.rightwin{
+    width:100px;
+    height:50px;
+    background-color: lightblue;
+}
+.rsbor{
+    width:210px;
+    height:5px;
+    background-color: gray;
+    position: relative;
+    bottom:150px;
+}
+.rightside{
+    position: relative;
+    bottom:75px;
+    left:360px;
+}
+.maincloud{
+    width:300px;
+    height:80px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+.sub1{
+    width:100px;
+    height:100px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    position: relative;
+    bottom:150px;
+    left:20px;
+}
+.sub2{
+    width:100px;
+    height:100px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    position: relative;
+    bottom:230px;
+    left:100px;
+}
+.cloud{
+    position:relative;
+    bottom:570px;
+    right:400px;
+    animation-name: slideleft;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes slideleft{
+    from{transform: translate(-350px);}
+    to{transform: translate(1350px);}
+}
+.road{
+    width:1350px;
+    height:80px;
+    background-color:#228B22;
+    position:relative;
+    right:470px;
+    bottom:360px;
+}
+.treebark{
+    width:25px;
+    height:70px;
+    background-color: darkred;
+    position: relative;
+    bottom:510px;
+    left:695px;
+}
+.tree{
+    width:120px;
+    height:120px;
+    background-color: #03C03C;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transform: rotate(135deg);
+    transform-origin: top;
+    position: relative;
+    bottom:610px;
+    left:690px;
+}
+.d1{
+    width:40px;
+    height:110px;
+    background-color:#4FFFB0;
+    position: relative;
+    bottom:750px;
+    left:60px;
+}
+.d2{
+    width:70px;
+    height:60px;
+    background-color: #4FFFB0;
+    position: relative;
+    bottom:820px;
+    right:215px;
+    transform: skewx(-45deg);
+}
+.d3{
+    border-bottom:40px solid rgb(238, 238, 162);
+    border-right:60px solid transparent;
+    border-left:60px solid transparent;
+    position: relative;
+    width:0px;
+    bottom:1000px;
+    left:20px;
+}
